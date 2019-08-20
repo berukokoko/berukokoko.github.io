@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="css/a.css">
+  　<link rel="stylesheet" href="css/hamburger.css">
+ <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- ハンバーガー -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    <script>
+    (function($) {
+        $(function() {
+            var $header = $('#top-head');
+            // Nav Fixed
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 350) {
+                    $header.addClass('fixed');
+                } else {
+                    $header.removeClass('fixed');
+                }
+            });
+            // Nav Toggle Button
+            $('#nav-toggle').click(function(){
+                $header.toggleClass('open');
+            });
+        });
+    })(jQuery);
+    </script>
+
+
+
+
+ <meta charset="utf-8">
+ <title>portfolio</title>
+
+</head>
+<body>
+
+  <div class="container">
+    <img src="images/header_logo_01.png" alt="何か">
+    <a href="#a">ご挨拶</a>
+    <a href="#b">アカウント</a>
+    <a href="http://">作品</a>
+    <a href="http://">プロフィール</a>
+</div>
+
+ <header id="top-head">
+
+   <div class="inner">
+
+       <div id="mobile-head">
+           <div id="nav-toggle">
+               <div>
+                   <span></span>
+                   <span></span>
+                   <span></span>
+               </div>
+           </div>
+       </div>
+       <nav id="global-nav">
+           <ul>
+               <li><a href="#">ご挨拶</a></li>
+               <li><a href="#">アカウント</a></li>
+               <li><a href="#">作品</a></li>
+               <li><a href="#">プロフィール</a></li>
+           </ul>
+       </nav>
+   </div>
+ </header>
+
+
+
+
+<div class="a">
+  <h2>ご挨拶</h2>
+    <div class="ako">
+    <p>XX</p>
+    <p>XXXXXXXXXXXXXXX</p>
+  </div>
+</div>
+
+<div class="b">
+  <h2>アカウント</h2>
+  <div class="bko">
+  <table>
+    <tr>
+      <th>
+        <a href="https://github.com/berukokoko/" target="_blank">
+        <i class="fab fa-github"></i></i>
+        </a>
+      </th>
+      <td>github
+      </td>
+    </tr>
+
+    <tr>
+      <th>
+        <a href="http://twilog.org/purogram001" target="_blank">
+        <i class="fab fa-twitter"></i>
+        </a>
+      </th>
+      <td>twitter
+      </td>
+    </tr>
+
+    <tr>
+      <th>
+        <a href="https://github.com/berukokoko/" target="_blank">
+        <i class="fab fa-github"></i></i>
+        </a>
+      </th>
+      <td>Qiita
+      </td>
+    </tr>
+
+    <tr>
+      <th>
+        <a href="https://github.com/berukokoko/" target="_blank">
+        <i class="fab fa-github"></i></i>
+        </a>
+      </th>
+      <td>blog
+      </td>
+    </tr>
+
+    <tr>
+      <th>
+        <a href="https://github.com/berukokoko/" target="_blank">
+        <i class="fab fa-github"></i></i>
+        </a>
+      </th>
+      <td>技術書店
+      </td>
+    </tr>
+
+  </table>
+</div>
+</div>
+
+<div class="c">
+    <h2>作品</h2>
+  <div class="cko">
+  <table>
+    <tr>
+      <th>
+        <img src="images/header_logo_01.png" alt="何か">
+      </th>
+      <td>
+        <p>発達XXXXXX</p>
+      </td>
+      <td>
+        <p>こんなアプリです。</p>
+        <p>XXX</p>
+        <p>XXX</p>
+      </td>
+    </tr>
+
+    <tr>
+      <th>
+        <img src="images/header_logo_01.png" alt="何か">
+      </th>
+      <td>
+        <p>アプリXXXXXX</p>
+      </td>
+      <td>
+        <p>こんなアプリです。</p>
+        <p>XXX</p>
+        <p>XXX</p>
+      </td>
+    </tr>
+
+  </table>
+</div>
+</div>
+
+<div class="d">
+  <h2>プロフィール</h2>
+  <div class="dko">
+    <p>スキル</p>
+
+    <div class="profile">
+    <h2>profile😄</h2>
+    <p>初めまして、とりんです。趣味でAndroid アプリ作ってる人です。</p>
+    <p>興味あることはなんでもトライしてみる性格です。</p>
+    <p>技術を学んだり、人とわいわいするのが好きで、勉強会へ行くのも好きです。</p>
+    <p>最近、女性エンジニアのコミュニティのGeekWomenJapanのスタッフになりました。</p>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
