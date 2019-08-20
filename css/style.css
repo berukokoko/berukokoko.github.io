@@ -1,26 +1,34 @@
-body{
+.main{
   width: 95%;
   margin: 0 auto;
   max-width: 800px;
+  margin-top: 50px;
 }
 
+.yummy{
+  background-color: #EDEDED;
+  text-align: center;
+}
+
+
+
 .a{
-  background-color: #ff840433;
+  background-color: #EDEDED;
   height: 200px;
 }
 
 .b{
-  background-color: #ff840433;
+  background-color: #EDEDED;
   height: 700px;
 }
 
 .c{
-  background-color: #ff840433;
+  background-color: #EDEDED;
     height: 530px;
 }
 
 .d{
-  background-color: #ff840433;
+  background-color: #EDEDED;
   height: 300px;
 }
 
@@ -44,7 +52,7 @@ body{
 }
 
 th,td{
-background-color: #ff840433;
+background-color: #EDEDED;
 padding: 20px;
 }
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
@@ -63,7 +71,7 @@ padding: 20px;
 }
 
 
-@media screen and  (max-width: 800px) and (min-width: 200px)
+@media screen and  (max-width: 800px)
 {
  th, td {
     padding: 10px;
@@ -77,5 +85,26 @@ padding: 20px;
 
 .c{
       height: 730px;
+}
+
+img {
+    max-width: 960px;
+    height: auto;
+}
+
+.yummy {
+    margin-top: 50px;
+}
+
+.yummy_pc{
+  display: none;
+}
+
+}
+
+@media screen and  (min-width: 800px)
+{
+.yummy_sp{
+  display: none;
 }
 }
