@@ -1,0 +1,81 @@
+body{
+  width: 95%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.a{
+  background-color: #ff840433;
+  height: 200px;
+}
+
+.b{
+  background-color: #ff840433;
+  height: 700px;
+}
+
+.c{
+  background-color: #ff840433;
+    height: 530px;
+}
+
+.d{
+  background-color: #ff840433;
+  height: 300px;
+}
+
+.ako{
+      text-align: center;
+}
+
+.bko{
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.cko{
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.dko{
+  text-align: center;
+}
+
+th,td{
+background-color: #ff840433;
+padding: 20px;
+}
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+
+/* アイコン */
+.fa-twitter,
+.fa-pencil-alt,
+.fa-edit,
+.fa-blogger,
+.fa-github,
+.fa-mobile,
+.fa-book
+{
+    font-size: 5rem;
+    color: black;
+}
+
+
+@media screen and  (max-width: 800px) and (min-width: 200px)
+{
+ th, td {
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+.cko {
+    max-width: 300px;
+}
+
+.c{
+      height: 730px;
+}
+}
