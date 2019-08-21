@@ -46,8 +46,12 @@ body {
       text-align: center;
 }
 
+.btable th,td{
+      width: 200px;
+      text-align: center;
+}
 .bko{
-  max-width: 300px;
+  max-width: 500px;
   margin: auto;
   text-align: center;
 }
@@ -111,9 +115,7 @@ text-align: left;
 @media screen and  (max-width: 800px)
 {
  th, td {
-    padding: 10px;
     display: block;
-    width: 100%;
 }
 
 .cko {
