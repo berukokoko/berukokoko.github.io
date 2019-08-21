@@ -87,7 +87,7 @@
     position: absolute;
     height: 4px;
     width: 100%;
-    background: #1452b0;
+    background: #EDEDED;
     left: 0;
     -webkit-transition: .35s ease-in-out;
     -moz-transition: .35s ease-in-out;
@@ -132,14 +132,14 @@
         position: absolute;
         left: 13px;
         top: 13px;
-        color: #1452b0;
+        color: #EDEDED;
         font-size: 26px;
     }
     #global-nav {
         position: absolute;
         /* 開いてないときは画面外に配置 */
         top: -500px;
-        background: #1452b0;
+        background: #EDEDED;
         width: 100%;
         text-align: center;
         padding: 10px 0;

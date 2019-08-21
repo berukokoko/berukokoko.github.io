@@ -1,8 +1,13 @@
+body {
+	font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+
 .main{
   width: 95%;
   margin: 0 auto;
   max-width: 800px;
   margin-top: 50px;
+  padding-left: 20px;
 }
 
 .yummy{
@@ -14,7 +19,7 @@
 
 .a{
   background-color: #EDEDED;
-  height: 200px;
+  height: 300px;
 }
 
 .b{
@@ -24,12 +29,17 @@
 
 .c{
   background-color: #EDEDED;
-    height: 530px;
+  height: 1300px;
 }
 
 .d{
   background-color: #EDEDED;
   height: 300px;
+}
+
+.e{
+  background-color: #EDEDED;
+  height: 600px;
 }
 
 .ako{
@@ -48,13 +58,40 @@
 }
 
 .dko{
+  text-align: left;
+  padding-left: 20px;
+}
+
+.eko{
+  max-width: 600px;
+  margin: auto;
   text-align: center;
 }
 
 th,td{
-background-color: #EDEDED;
-padding: 20px;
+background-color: #bfbfbf;
+padding: 15px;
+text-align: left;
 }
+
+
+
+.header_nav{
+ list-style: none;
+ background-color: #bfbfbf;
+}
+.header_li a{
+ text-decoration: none;
+}
+
+.header_ul{
+    text-align: center;
+}
+
+.header_li{
+  display: inline-block;
+}
+
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 
 /* アイコン */
@@ -84,7 +121,11 @@ padding: 20px;
 }
 
 .c{
-      height: 730px;
+      height: 1800px;
+}
+
+.e{
+      height: 1800px;
 }
 
 img {

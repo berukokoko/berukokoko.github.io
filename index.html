@@ -46,10 +46,15 @@
 <div class="main">
   <div class="container">
     <img src="images/header_logo_01.png" alt="何か">
-    <a href="#a">ご挨拶</a>
-    <a href="#b">アカウント</a>
-    <a href="http://">作品</a>
-    <a href="http://">プロフィール</a>
+    <nav class="header_nav">
+        <ul class="header_ul">
+            <li class="header_li"><a href="file:///Users/rin/Desktop/beru/index.html#aid">ご挨拶</a></li>
+            <li class="header_li"><a href="file:///Users/rin/Desktop/beru/index.html#bid">アカウント</a></li>
+            <li class="header_li"><a href="file:///Users/rin/Desktop/beru/index.html#cid">作品</a></li>
+            <li class="header_li"><a href="file:///Users/rin/Desktop/beru/index.html#did">プロフィール</a></li>
+            <li class="header_li"><a href="file:///Users/rin/Desktop/beru/index.html#eid">スキル</a></li>
+        </ul>
+    </nav>
 </div>
 
  <header id="top-head">
@@ -67,10 +72,11 @@
        </div>
        <nav id="global-nav">
            <ul>
-               <li><a href="#">ご挨拶</a></li>
-               <li><a href="#">アカウント</a></li>
-               <li><a href="#">作品</a></li>
-               <li><a href="#">プロフィール</a></li>
+               <li><a href="file:///Users/rin/Desktop/beru/index.html#aid">ご挨拶</a></li>
+               <li><a href="file:///Users/rin/Desktop/beru/index.html#bid">アカウント</a></li>
+               <li><a href="file:///Users/rin/Desktop/beru/index.html#cid">作品</a></li>
+               <li><a href="file:///Users/rin/Desktop/beru/index.html#did">プロフィール</a></li>
+               <li><a href="file:///Users/rin/Desktop/beru/index.html#eid">スキル</a></li>
            </ul>
        </nav>
    </div>
@@ -80,22 +86,23 @@
 
 
 <div class="a">
-  <h2>ご挨拶</h2>
+  <h2 id="aid">ご挨拶</h2>
     <div class="ako">
-    <p>XX</p>
-    <p>XXXXXXXXXXXXXXX</p>
+    <img src="images/torin.jpg" alt="何か">
+    <p>初めまして、とりんです。</p>
+    <p>私のportfolioです。</p>
   </div>
 </div>
 
 <div class="b">
-  <h2>アカウント</h2>
+  <h2 id="bid">アカウント</h2>
   <div class="bko">
   <table>
     <tr>
       <th>
         <a href="https://github.com/berukokoko/" target="_blank">
-        <i class="fab fa-github"></i></i>
-        </a>
+        <i class="fab fa-github"></i>
+      　</a>
       </th>
       <td>github
       </td>
@@ -113,8 +120,8 @@
 
     <tr>
       <th>
-        <a href="https://github.com/berukokoko/" target="_blank">
-        <i class="fab fa-github"></i></i>
+        <a href="https://qiita.com/berukokoko" target="_blank">
+        <i class="fas fa-pencil-alt"></i>
         </a>
       </th>
       <td>Qiita
@@ -123,8 +130,8 @@
 
     <tr>
       <th>
-        <a href="https://github.com/berukokoko/" target="_blank">
-        <i class="fab fa-github"></i></i>
+        <a href="http://berukokoko.hatenablog.jp/" target="_blank">
+        <i class="fab fa-blogger"></i>
         </a>
       </th>
       <td>blog
@@ -133,8 +140,8 @@
 
     <tr>
       <th>
-        <a href="https://github.com/berukokoko/" target="_blank">
-        <i class="fab fa-github"></i></i>
+        <a href="https://techbookfest.org/event/tbf04/circle/13820005" target="_blank">
+        <i class="fas fa-book"></i>
         </a>
       </th>
       <td>技術書店
@@ -146,34 +153,67 @@
 </div>
 
 <div class="c">
-    <h2>作品</h2>
+    <h2 id="cid">作品</h2>
   <div class="cko">
   <table>
     <tr>
       <th>
+        <a href="http://gifook.com/" target="_blank">
         <img src="images/header_logo_01.png" alt="何か">
+        </a>
       </th>
       <td>
-        <p>発達XXXXXX</p>
+        <p>gifook.com</p>
       </td>
       <td>
-        <p>こんなアプリです。</p>
-        <p>XXX</p>
-        <p>XXX</p>
+        <p>gifook.com</p>
+        <p>発達障害の本の検索ができるサイトです。</p>
+        <p>制作年月日:2019年6月〜8月。</p>
+        <p>作品のコンセプト。</p>
+        <p>制作時間:2か月。</p>
+        <p>使用言語:HTML,CSS,PHP</p>
+        <p>使用DB:MySQL</p>
+        <p>使用ソフト:MANP,Github,Atom.</p>
       </td>
     </tr>
 
     <tr>
       <th>
+        <a href="https://play.google.com/store/apps/details?id=com.timer2491.timer" target="_blank">
         <img src="images/header_logo_01.png" alt="何か">
+        </a>
       </th>
       <td>
         <p>アプリXXXXXX</p>
       </td>
       <td>
-        <p>こんなアプリです。</p>
         <p>XXX</p>
-        <p>XXX</p>
+        <p>ストップウォッチのアプリです。</p>
+        <p>制作年月日:2018年。</p>
+        <p>作品のコンセプト。</p>
+        <p>制作時間:1か月。</p>
+        <p>使用言語:Java</p>
+        <p>使用ソフト:AndroidStudio,Atom</p>
+      </td>
+    </tr>
+
+    <tr>
+      <th>
+        <a href="https://berukokoko.github.io/" target="_blank">
+        <img src="images/header_logo_01.png" alt="何か">
+        </a>
+      </th>
+      <td>
+        <p>berukokoko.github.io</p>
+      </td>
+      <td>
+        <p>berukokoko.github.io</p>
+        <p>ポートフォリオです。</p>
+        <p>制作年月日:2019年8月。</p>
+        <p>作品のコンセプト。</p>
+        <p>制作時間:3日。</p>
+        <p>使用言語:HTML,CSS</p>
+        <p>使用ソフト:Github,Atom.</p>
       </td>
     </tr>
 
@@ -182,17 +222,109 @@
 </div>
 
 <div class="d">
-  <h2>プロフィール</h2>
+  <h2 id="did">profile</h2>
   <div class="dko">
-    <p>スキル</p>
 
     <div class="profile">
-    <h2>profile😄</h2>
     <p>初めまして、とりんです。</p>
     <p>趣味でAndroid アプリ作ってる人です。</p>
     <p>興味あることはなんでもトライしてみる性格です。</p>
     <p>技術を学んだり、人とわいわいするのが好きで、勉強会へ行くのも好きです。</p>
     </div>
+
+  </div>
+</div>
+
+<div class="e">
+  <h2 id="eid">Skill</h2>
+  <div class="eko">
+
+    <div class="skill">
+
+  <table>
+    <tr>
+      <th>
+      　<p>HTML</p>
+      </th>
+      <td>
+        <p>★★☆☆☆</p>
+      </td>
+
+      <th>
+      　<p>CSS</p>
+      </th>
+      <td>
+        <p>★★☆☆☆</p>
+      </td>
+
+    </tr>
+
+    <tr>
+      <th>
+      　<p>PHP</p>
+      </th>
+      <td>
+        <p>★★☆☆☆</p>
+      </td>
+
+      <th>
+      　<p>Java</p>
+      </th>
+      <td>
+        <p>★★☆☆☆</p>
+      </td>
+    </tr>
+
+    <tr>
+      <th>
+      　<p>JavaScript</p>
+      </th>
+      <td>
+        <p>★☆☆☆☆</p>
+      </td>
+
+      <th>
+      　<p>C#</p>
+      </th>
+      <td>
+        <p>★☆☆☆☆</p>
+      </td>
+    </tr>
+
+    <tr>
+      <th>
+      　<p>MySQL</p>
+      </th>
+      <td>
+        <p>★★☆☆☆</p>
+      </td>
+
+      <th>
+      　<p>Git</p>
+      </th>
+      <td>
+        <p>★★☆☆☆</p>
+      </td>
+    </tr>
+
+    <tr>
+      <th>
+      　<p>SQLserver</p>
+      </th>
+      <td>
+        <p>★☆☆☆☆</p>
+      </td>
+
+      <th>
+      　<p>WordPress</p>
+      </th>
+      <td>
+        <p>★☆☆☆☆</p>
+      </td>
+    </tr>
+
+  </table>
+  </div>
 
   </div>
 </div>
