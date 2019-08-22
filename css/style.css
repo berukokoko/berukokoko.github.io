@@ -1,3 +1,4 @@
+/* 全体 */
 body {
 	font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
 }
@@ -9,77 +10,49 @@ body {
   margin-top: 50px;
   padding-left: 20px;
 }
-
-.yummy{
-  background-color: #EDEDED;
-  text-align: center;
+table{
+	    padding: 10px;
 }
 
-
-
-.a{
-  background-color: #EDEDED;
-  height: 300px;
+th{
+background-color: #676767;
+padding: 15px;
+text-align: left;
 }
 
-.b{
-  background-color: #EDEDED;
-  height: 700px;
-}
-
-.c{
-  background-color: #EDEDED;
-  height: 1300px;
-}
-
-.d{
-  background-color: #EDEDED;
-  height: 300px;
-}
-
-.e{
-  background-color: #EDEDED;
-  height: 600px;
-}
-
-.ako{
-      text-align: center;
-}
-
-.btable th,td{
-      width: 200px;
-      text-align: center;
-}
-.bko{
-  max-width: 500px;
-  margin: auto;
-  text-align: center;
-}
-.cko{
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-}
-
-.dko{
-  text-align: left;
-  padding-left: 20px;
-}
-
-.eko{
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
-}
-
-th,td{
+td{
 background-color: #bfbfbf;
 padding: 15px;
 text-align: left;
 }
 
+/* メイン */
+.wrapper{
+  background-color: #EDEDED;
+  height: 300px;
+}
 
+.area{
+  background-color: #EDEDED;
+  height: 700px;
+}
 
+.section{
+  background-color: #EDEDED;
+  height: 1300px;
+}
+
+.content{
+  background-color: #EDEDED;
+  height: 300px;
+}
+
+.about{
+  background-color: #EDEDED;
+  height: 600px;
+}
+
+/* ヘッターナビ */
 .header_nav{
  list-style: none;
  background-color: #bfbfbf;
@@ -95,6 +68,47 @@ text-align: left;
 .header_li{
   display: inline-block;
 }
+
+/*  */
+.btable th,td{
+      width: 300px;
+      text-align: center;
+}
+
+.yummy{
+  background-color: #EDEDED;
+  text-align: center;
+}
+
+.wrapper_class{
+      text-align: center;
+}
+
+
+.area_class{
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.section_class{
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.content_class{
+  text-align: left;
+  padding-left: 20px;
+}
+
+.about_class{
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+
+
 
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
 
@@ -112,22 +126,33 @@ text-align: left;
 }
 
 
+
+
 @media screen and  (max-width: 800px)
 {
  th, td {
     display: block;
 }
 
-.cko {
+.btable th,td{
+      width: 300px;
+      text-align: left;
+}
+
+.section_class {
     max-width: 300px;
 }
 
-.c{
-      height: 1800px;
+.area{
+	height: 900px;
 }
 
-.e{
-      height: 1800px;
+.section{
+      height: 2000px;
+}
+
+.about{
+      height: 2000px;
 }
 
 img {
@@ -142,6 +167,7 @@ img {
 .yummy_pc{
   display: none;
 }
+
 
 }
 
