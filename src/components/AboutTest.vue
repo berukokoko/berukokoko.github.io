@@ -46,7 +46,7 @@
     <tr>
       <th>
         <a href="https://github.com/berukokoko/" target="_blank">
-        <i class="fab fa-github"></i></a>
+        <i class="fab fa-5x fa-github"></i></a>
       </th>
       <td>github
       </td>
@@ -55,7 +55,7 @@
     <tr>
       <th>
         <a href="http://twilog.org/purogram001" target="_blank">
-        <i class="fab fa-twitter"></i>
+        <i class="fab fa-5x fa-twitter"></i>
         </a>
       </th>
       <td>twitter
@@ -65,7 +65,7 @@
     <tr>
       <th>
         <a href="https://qiita.com/berukokoko" target="_blank">
-        <i class="fas fa-pencil-alt"></i>
+        <i class="fas fa-5x fa-pencil-alt"></i>
         </a>
       </th>
       <td>Qiita
@@ -75,7 +75,7 @@
     <tr>
       <th>
         <a href="http://berukokoko.hatenablog.jp/" target="_blank">
-        <i class="fab fa-blogger"></i>
+        <i class="fab fa-5x fa-blogger"></i>
         </a>
       </th>
       <td>blog
@@ -85,7 +85,7 @@
     <tr>
       <th>
         <a href="https://techbookfest.org/event/tbf04/circle/13820005" target="_blank">
-        <i class="fas fa-book"></i>
+        <i class="fas fa-5x fa-book"></i>
         </a>
       </th>
       <td>技術書店
@@ -108,6 +108,7 @@
 
 
 <style>
+
 
 textarea {
 width:100%;

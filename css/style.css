@@ -69,11 +69,7 @@ text-align: left;
   display: inline-block;
 }
 
-/*  */
-.btable th,td{
-      width: 300px;
-      text-align: center;
-}
+
 
 .yummy{
   background-color: #EDEDED;
@@ -132,11 +128,6 @@ text-align: left;
 {
  th, td {
     display: block;
-}
-
-.btable th,td{
-      width: 250px;
-      text-align: left;
 }
 
 .section_class {
